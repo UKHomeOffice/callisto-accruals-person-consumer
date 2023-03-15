@@ -1,3 +1,5 @@
+fullnameOverride: "callisto-accruals-person-consumer"
+
 image:
   repository: quay.io/ukhomeofficedigital/callisto-accruals-person-consumer
   tag: latest
