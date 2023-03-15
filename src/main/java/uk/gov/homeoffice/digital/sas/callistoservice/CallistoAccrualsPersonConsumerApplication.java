@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CallistoServiceApplication {
+public class CallistoAccrualsPersonConsumerApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(CallistoServiceApplication.class, args);
+    SpringApplication.run(CallistoAccrualsPersonConsumerApplication.class, args);
   }
 
 }
