@@ -1,6 +1,6 @@
 FROM openjdk:17-alpine
 WORKDIR /usr/src/main
 ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} REPLACE-SERVICE-NAME.jar
-ENTRYPOINT ["java","-jar","REPLACE-SERVICE-NAME.jar"]
-EXPOSE REPLACE-SERVICE-PORT
+COPY ${JAR_FILE} callisto-accruals-person-consumer.jar
+ENTRYPOINT ["java","-jar","callisto-accruals-person-consumer.jar"]
+EXPOSE 9090
